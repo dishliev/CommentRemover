@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<Extern href="stdidcmd.h"/>
+	<Extern href="vsshlids.h"/>
+	<Include href="KnownImageIds.vsct"/>
+	<Include href="VSGlobals.vsct"/>
+
+	<Commands package="CommentRemover">
+		<Groups>
+			<Group guid="CommentRemover" id="MyMenuGroup" priority="0x0600">
+				<Parent guid="VSMainMenu" id="Edit"/>
+			</Group>
+		</Groups>
+
+		<!--This section defines the elements the user can interact with, like a menu command or a button
+        or combo box in a toolbar. -->
+		<Buttons>
+			<Button guid="CommentRemover" id="Command" priority="0x0100" type="Button">
+				<Parent guid="CommentRemover" id="MyMenuGroup" />
+				<Icon guid="ImageCatalogGuid" id="Uncomment" />
+				<CommandFlag>IconIsMoniker</CommandFlag>
+				<Strings>
+					<ButtonText>Remove comments</ButtonText>
+					<LocCanonicalName>.Edit.Remove comments</LocCanonicalName>
+				</Strings>
+			</Button>
+		</Buttons>
+	</Commands>
+
+	<Symbols>
+		<GuidSymbol name="CommentRemover" value="{9907efad-c927-4652-9085-5a134a7afa0b}">
+			<IDSymbol name="MyMenuGroup" value="0x0001" />
+			<IDSymbol name="Command" value="0x0100" />
+		</GuidSymbol>
+	</Symbols>
+</CommandTable>

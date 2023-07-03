@@ -21,8 +21,8 @@
 				<Icon guid="ImageCatalogGuid" id="Uncomment" />
 				<CommandFlag>IconIsMoniker</CommandFlag>
 				<Strings>
-					<ButtonText>Remove comments</ButtonText>
-					<LocCanonicalName>.Edit.Remove comments</LocCanonicalName>
+					<ButtonText>Remove Comments</ButtonText>
+					<LocCanonicalName>.Edit.Remove Comments</LocCanonicalName>
 				</Strings>
 			</Button>
 		</Buttons>

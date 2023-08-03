@@ -9,4 +9,4 @@
   <li>Choose the "Remove Comments" option.</li>
 </ol>
 
-![Comment Remover](https://github.com/dishliev/CommentRemover/assets/9913576/ac6c70d5-7eee-406e-a26d-c672e9565196.png)
+![cr](https://github.com/dishliev/CommentRemover/assets/9913576/843f2bd0-f979-4498-9ced-69d350ecb203)
